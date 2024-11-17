@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 800px;
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Kotak Hijau */
+.green {
+  grid-column: 1 / span 2;
+  background-color: lightgreen;
+}
+
+/* Kotak Kuning */
+.yellow {
+  background-color: yellow;
+}
+
+/* Kotak Merah */
+.red {
+  background-color: red;
+  grid-column: 2 / span 1;
+}
+
+.yellow2 {
+  background-color: yellow;
+  grid-column: 2 / span 1;
+}
+
+/* Kotak Biru */
+.blue {
+  grid-column: 1 ;
+  background-color: skyblue;
+}
