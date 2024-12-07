@@ -1,0 +1,62 @@
+/* style.css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b97878;
+    padding: 20px;
+}
+
+.khasiat {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(42, 31, 31, 0.3);
+}
+
+.khasiat {
+    background-color: #c3b6b6; 
+}
+
+.khasiat p {
+    margin: 0;
+}
+
+.arrow {
+    position: relative;
+    top: -50px;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.khasiat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #68849c;
+}
